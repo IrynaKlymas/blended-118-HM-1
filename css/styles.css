@@ -1,0 +1,145 @@
+.body {
+font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+ul,
+ol {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+font-family:inherit
+cursor: pointer;
+border: none;
+}
+
+img {
+display: block;
+height: auto;
+}
+
+
+.container {
+    width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+}
+
+.navigation {
+display: flex;
+}
+
+.logo {
+display: flex;
+gap: 16px;
+margin-right: 237px;
+align-items: center;
+
+font-weight: 700;
+font-size: 30px;
+
+line-height: 0.93333;
+color: #173a56;
+}
+
+.nav-list {
+display: flex;
+gap: 30px;
+}
+
+.nav-list-item {}
+
+.nav-list-link {
+padding: 26px 0;
+display: block;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.75;
+color: #22343d;
+}
+
+.active {
+font-weight: 600;
+}
+
+.list-btn {
+margin-left: auto;
+display: flex;
+gap: 21px;
+align-items: center;
+}
+
+.list-btn-item {}
+
+.list-btn-sing-in {
+border: 1px solid #bcd0e5;
+border-radius: 4px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        
+width: 105px;
+height: 42px;
+font-weight: 600;
+font-size: 16px;
+text-align: center;
+color: #173a56;
+}
+
+.list-btn-sing-up {
+border-radius: 4px;
+width: 113px;
+height: 42px;
+background: #02897a;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+font-weight: 600;
+font-size: 16px;
+color: #fff;
+}
+
+.hero {}
+
+.hero-title {}
+
+.heto-title-desr {}
+
+.hero-list-btn {}
+
+.hero-list-item {}
+
+.hero-list-btn-get {}
+
+.hero-list-btn-watch {}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.header .container {
+display: flex;
+
+}
+
+.logo {
+
+}

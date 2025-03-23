@@ -4,32 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business promotion</title>
-  </head>
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
   <body>
-    <header>
-      <nav>
-        <a href="/index.html"><img srs="./images/logo.png" alt="logo">Product</img>
-            <ul>
-                <li><a href="./index.html">Product</a></li>
-                <li><a href="./prising.html">Pricing</a></li>
-                <li><a href="./customer.html">Customers</a></li>
-                <li><a href="./resources.html">Resources</a></li>
+    <header class="header">
+        <div class="container"></div>
+      <nav class="navigation">
+        <a href="./index.html" class="logo"><img src="./images/logo.png" alt="logo" />Product</a>
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="./index.html" class="nav-list-link active">Product</a></li>
+                <li class="nav-list-item"><a href="./prising.html" class="nav-list-link">Pricing</a></li>
+                <li class="nav-list-item"><a href="./customer.html" class="nav-list-link">Customers</a></li>
+                <li class="nav-list-item"><a href="./resources.html" class="nav-list-link">Resources</a></li>
             </ul>
       </nav>
-      <ul>
-        <li><button type="button">Sing In</Inp></button></li>
-        <li><button type="button">Sing Up</button></li>
+      <ul class="list-btn">
+        <li class="list-btn-item"><button type="button" class="list-btn-sing-in">Sing In</Inp></button></li>
+        <li class="list-btn-item"><button type="button" class="list-btn-sing-up">Sing Up</button></li>
       </ul>
+            </div>
     </header>
     <main>
-        <section>
-            <h1>Work at the speed of thought</h1>
-            <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-            <ul>
-                <li><button type="button">Get started</button></li>
-                <li><button type="button">Watch the Video</button></li>
+        <section class="hero">
+            <div class="container">
+            <h1 class="hero-title">Work at the speed of thought</h1>
+            <p class="heto-title-desr">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+            <ul class="hero-list-btn">
+                <li class="hero-list-item"><button type="button" class="hero-list-btn-get">Get started</button></li>
+                <li class="hero-list-item"><button type="button" class="hero-list-btn-watch">Watch the Video</button></li>
             </ul>
             <img src="./images/hero-img.png" alt="peoples">
+            </div>
         </section>
         <section>
             <h2>Product  was Built Specifically for You</h2>
@@ -56,6 +71,7 @@
             </li>
           </ul>
           <button type="button">Sing Up</button>
+          </div>
         </section>
         <section>
             <h3>Effortless Validation for</h3>
@@ -226,7 +242,7 @@ reach your financial goal.</p>
     </main>
     <footer>
          <div>
-    <a href="./index.html"><img src="./images/logo.png" alt="logo">Product</a>
+    <a href="./index.html" class="logo"><img src="./images/logo.png" alt="logo" />Product</a>
     <ul>
         
         <li><a href=""><img src="./images/insta.png" alt="logo instagram" width="24" height="24"></a></li>
