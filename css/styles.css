@@ -597,17 +597,6 @@ img {
     color: #fff;
 }
 
-.pricing-img,
-.pricing-img-center {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.pricing-list-box-one {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .pricing-img-dollar {
     padding-top: 7px;
 
@@ -646,13 +635,10 @@ img {
     justify-content: center;
     gap: 7px;
     margin-bottom: 16px;
+    text-align: left;
 }
 
-.pricing-list-box-one {
-    padding-top: 16px;
-}
-
-.pricing-img {
+.pricing-one-img {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 76px;
@@ -662,7 +648,7 @@ img {
     color: #02897a;
 }
 
-.pricing-img-dollar {
+.pricing-two-img {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -670,6 +656,36 @@ img {
     letter-spacing: 0em;
     color: #02897a;
     margin-bottom: 4px;
+}
+
+.pricing-list-box-one {
+    padding-top: 16px;
+}
+
+.pricing-two-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.pricing-three-text-box {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-three-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+    color: #22343d;
 }
 
 .pricing-two-text {
@@ -748,4 +764,289 @@ img {
 .centr {
     background: #fff;
     color: #02897a;
+}
+
+.feetback {
+    background: #fff;
+    padding-top: 100px;
+}
+
+.container-feetback {
+    display: block;
+}
+
+.feetback-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.78125;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.feetback-text {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    max-width: 537px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.one {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.feetback-list {
+    display: flex;
+    gap: 64px;
+}
+
+.feetback-item {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    width: 327px;
+    height: 240px;
+    flex-basis: culc((100% - 2 * 64px) / 3);
+    padding: 28px 0;
+}
+
+.feetback-one-img {
+    max-width: 106px;
+    padding-left: 28px;
+    margin-bottom: 16px;
+}
+
+.feetback-one-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+    padding-left: 26px;
+    margin-bottom: 16px;
+}
+
+.feetback-box-one {
+    display: flex;
+    padding-left: 26px;
+}
+
+.feetback-two-img {
+    margin-right: 14px;
+}
+
+.feetback-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #02897a;
+}
+
+.feetback-two-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71429;
+    letter-spacing: 0.01em;
+    color: #252b42;
+}
+
+.promo {
+    background: #fff;
+    width: 100vw;
+    padding: 100px 71px 0;
+}
+
+
+.promo-container {
+    display: flex;
+    border-radius: 32px;
+    width: 968px;
+    background: #02897a;
+    padding-left: 51px;
+    padding-right: 46px;
+}
+
+.promo-title {
+    display: block;
+    min-width: 510px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.514;
+    color: #fff;
+    margin-top: 49px;
+    margin-bottom: 46px;
+}
+
+.promo-btn {
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+}
+
+.promo-img {
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: #fff;
+    padding-top: 100px;
+}
+
+.container-footer {
+    display: block;
+}
+
+.footer-container {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.footer-one-box {
+    min-width: 178px;
+    margin-right: 146px;
+}
+
+.footer-logo-link {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93333;
+    color: #173a56;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.footer-one-img-twitter {
+    transform: scale(1.5);
+}
+
+.footer-one-list {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.footer-one-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #92bdb6;
+}
+
+.our-team-icon-svg {
+    stroke-width: 2px;
+    stroke: #02897a;
+    fill: none;
+}
+
+.footer-two-box {
+    max-width: 118px;
+    margin-right: 129px;
+}
+
+.footer-two-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.1875;
+    color: #22343d;
+}
+
+.footer-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+    margin-bottom: 8px;
+}
+
+.footer-two-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-three-box {
+    min-width: 131px;
+    margin-right: 83px;
+}
+
+.footer-three-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.1875;
+    color: #22343d;
+}
+
+.footer-four-box {
+    max-width: 325px;
+}
+
+.footer-subtitle-one {
+    max-width: 280px;
+    margin-bottom: 30px;
+}
+
+.footer-four-img {
+    max-height: 28px;
+    transform: scale(1);
+}
+
+.footer-four-inpt {
+    min-width: 240px;
+    border: none;
+}
+
+.footer-four-inpt::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #02897a;
+}
+
+.your-phone {
+    display: flex;
+    gap: 12px;
+
+    align-items: center;
+    padding: 10px 12px;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    width: 325px;
+    height: 48px;
+    background: #fff;
+    margin-bottom: 25px;
+}
+
+.footer-four-btn {
+    display: block;
+    width: 131px;
+    height: 39px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    background: #02897a;
+}
+
+.footer-text-last {
+    text-align: center;
+    font: 400 16px / 1.88 "Poppins", sans-serif;
+    color: #22343d;
 }
